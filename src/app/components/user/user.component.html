@@ -1,0 +1,10 @@
+<h3>User</h3>
+<form (submit)="save(firstName.value, lastName.value)">
+  <label for="firstName">First name</label>
+  <input id="firstName" placeholder="First name" #firstName/>
+  <br />
+  <label for="lastName">Last name</label>
+  <input id="lastName" placeholder="Last name" #lastName/>
+  <br />
+  <input type="submit" value="Submit"/>
+</form>
